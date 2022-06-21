@@ -1,0 +1,15 @@
+Cart and Products
++ 1. Create spring boot rest api application.
++ 2. Create Cart and Products entities with one to many relationship.
++ 3. Create service layer, repository layer and representational (controller) layer for both entities.
++ 4. Add custom exceptions.
+5. Wrap controller responses in ResponseEntity
++ 6. Add validation service to validate missing mandatory fields. (Use custom exceptions), also validate negative prices or other measurements.
++ 7. Add logging.
+8. Add custom functionality as Mail sending, pdf invoice generation, json file generation, or something else.
+9. Add some custom database methods/queries.
+ + 10. Use clean architecture and good practices. (@Query annotation)
+
+
+ * Added DTOS's;
+ * Added ExceptionHandler (Want to add
