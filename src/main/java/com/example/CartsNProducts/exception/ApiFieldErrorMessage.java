@@ -15,8 +15,4 @@ public class ApiFieldErrorMessage {
     private Object rejectedValue;
     private String message;
 
-    public ApiFieldErrorMessage(String object, String message, FieldError fieldError) {
-        this.object = fieldError.getObjectName();
-        this.message = message;
-    }
 }

@@ -41,22 +41,5 @@ public class ApiErrorMessage {
         this.path = path;
         this.subErrors = subErrors;
     }
-
-//    public void createValidationError(FieldError fieldError, ApiValidationError apiValidationError) {
-//        apiValidationError.setObject(fieldError.getObjectName());
-//        apiValidationError.setField(fieldError.getField());
-//        apiValidationError.setRejectedValue(fieldError.getRejectedValue());
-//        apiValidationError.setMessage(fieldError.getDefaultMessage());
-//    }
-
-//    private void addSubError(ApiSubError subError) {
-//        if (subErrors == null) {
-//            subErrors = new ArrayList<>();
-//        }
-//        subErrors.add(subError);
-//    }
-
-//    private void addValidationError(String object, String field, Object rejectedValue, String message) {
-//        addSubError(new ApiValidationError(object, field, rejectedValue, message));
-//    }
 }
+

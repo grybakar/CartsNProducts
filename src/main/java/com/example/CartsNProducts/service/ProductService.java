@@ -19,7 +19,6 @@ public class ProductService {
 
     public final Logger LOGGER = LoggerFactory.getLogger(ProductService.class);
     private final ProductRepository productRepository;
-    private final CartRepository cartRepository;
 
     public List<Product> findAll() {
         LOGGER.info("FINDING ALL PRODUCTS");
@@ -64,15 +63,6 @@ public class ProductService {
     }
 }
 
-
-//    public ResponseEntity<ProductDto> addProductToCart(ProductDto product, Cart cart) {
-//        LOGGER.warn("Adding product to Cart");
-//        ProductDto productToAssign = productRepository.findById(product.getId()).get();
-//        Cart cartToAssign = cartRepository.findById(cart.getId()).get();
-//        productToAssign.setCart(cartToAssign);
-//        ProductDto assignedToProduct = productRepository.save(productToAssign);
-//        return new ResponseEntity<>(assignedToProduct, HttpStatus.OK);
-//    }
 
 
 
